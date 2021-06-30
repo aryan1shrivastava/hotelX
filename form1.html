@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HotelX</title>
+
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS style Sheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a26990c05c.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body class="details-body">
+
+  <form action="">
+    <!--  General -->
+    <div class="form-group">
+      <h2 class="heading form-heading">Book Your Stay at <b>HotelX</b></h2>
+      <div class="controls">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" class="floatLabel form-control-lg" name="name" size="40" placeholder="Full-name">
+
+      </div>
+      <div class="controls">
+        <label for="email">Email</label><br>
+        <input type="text" id="email" class="floatLabel form-control-lg" name="email" size="40" placeholder="abcd@xyz.com">
+
+      </div>
+      <div class="controls">
+        <label for="phone">Phone</label><br>
+        <input type="tel" id="phone" class="floatLabel form-control-lg" name="phone" size="40" placeholder="90398XXXXX">
+
+      </div>
+      <div class="controls">
+        <label for="idcard">Adhaar Card</label><br>
+        <input type="idcard" id="id-card" class="floatLabel form-control-lg" name="idcard" size="40" placeholder="XXXX-XXXX-XXXX-XXXX">
+
+      </div>
+    </div>
+    <!--  Details -->
+    <div class="form-group details-group">
+      <h2 class="heading form-heading">Details</h2>
+      <div class="details">
+
+        <div class="row dates">
+          <div class="col-lg-6">
+            <div class="controls c-details">
+              <label for="arrive" class="label-date"><i class="fa fa-calendar"></i> Check-In</label><br>
+              <input type="date" id="arrive" class="floatLabel form-control-lg" name="arrive" value="" size="40" placeholder="Date of Arrival">
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="controls c-details">
+              <label for="depart" class="label-date"><i class="fa fa-calendar"></i> Check-out</label><br>
+              <input type="date" id="depart" class="floatLabel form-control-lg" name="depart" value="" size="40">
+
+            </div>
+          </div>
+        </div>
+        <div class="extra-details">
+          <div class="col-lg-6 col-sm-4 ">
+            <div class="controls c-details">
+
+              <label for="fruit"><i class="fa fa-male"></i> People</label><br>
+
+              <select class="floatLabel form-control-lg">
+                <option value="blank"></option>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+              </select>
+
+            </div>
+          </div>
+            </div>
+          <div class="row">
+
+
+          <div class="col-lg-6 ">
+            <div class="controls c-details">
+              <label for="fruit">Room</label><br>
+
+
+              <select class="floatLabel form-control-lg">
+                <option value="blank"></option>
+                <option value="KingS" selected>King Suite</option>
+                <option value="DeluxeS">Deluxe Suite</option>
+                <option value="ExecutiveS">Executive Suite</option>
+              </select>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 ">
+            <div class="controls c-details">
+              <label for="fruit">Bedding</label><br>
+
+              <select class="floatLabel form-control-lg">
+                <option value="blank"></option>
+                <option value="single-bed">single-bed</option>
+                <option value="double-bed" selected>double-bed</option>
+              </select>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <div class="c-details">
+        <div class="controls c-details">
+        </div>
+        <a href="index.html">
+          <button type="button" class="btn btn-success btn-lg "><i class="fas fa-check-circle"></i>  Confirm Booking</button>
+        </a>
+
+      </div>
+    </div> <!-- /.form-group -->
+  </form>
+
+
+
+
+
+</body>
+
+</html>
