@@ -27,7 +27,7 @@
 
 <body class="details-body">
 
-  <form action="">
+  <form action="http://localhost/project/Link.php" method="post">
     <!--  General -->
     <div class="form-group">
       <h2 class="heading form-heading">Book Your Stay at <b>HotelX</b></h2>
@@ -79,7 +79,7 @@
 
               <label for="fruit"><i class="fa fa-male"></i> People</label><br>
 
-              <select class="floatLabel form-control-lg">
+              <select class="floatLabel form-control-lg" name="people">
                 <option value="blank"></option>
                 <option value="1">1</option>
                 <option value="2" selected>2</option>
@@ -94,10 +94,10 @@
 
           <div class="col-lg-6 ">
             <div class="controls c-details">
-              <label for="fruit">Room</label><br>
+              <label for="fruit">Room Type</label><br>
 
 
-              <select class="floatLabel form-control-lg">
+              <select class="floatLabel form-control-lg" name="room">
                 <option value="blank"></option>
                 <option value="KingS" selected>King Suite</option>
                 <option value="DeluxeS">Deluxe Suite</option>
@@ -111,7 +111,7 @@
             <div class="controls c-details">
               <label for="fruit">Bedding</label><br>
 
-              <select class="floatLabel form-control-lg">
+              <select class="floatLabel form-control-lg" name="bed">
                 <option value="blank"></option>
                 <option value="single-bed">single-bed</option>
                 <option value="double-bed" selected>double-bed</option>
@@ -122,15 +122,16 @@
         </div>
         </div>
 
-      <div class="c-details">
+<div class="c-details">
         <div class="controls c-details">
         </div>
-        <a href="index.html">
-          <button type="button" class="btn btn-success btn-lg "><i class="fas fa-check-circle"></i>  Confirm Booking</button>
-        </a>
+
+          <button type="submit" class="btn btn-success btn-lg "><i class="fas fa-check-circle"></i>  Confirm Booking</button>
+
 
       </div>
-    </div> <!-- /.form-group -->
+    </div> 
+
   </form>
 
 
