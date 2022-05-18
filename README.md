@@ -1,4 +1,4 @@
 # hotelX
-A basic website design for a Hotel.
+A website design for a Hotel.
 
 
